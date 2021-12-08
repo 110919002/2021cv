@@ -2,6 +2,7 @@ html{
     background-color: white;
     box-sizing: border-box;
     display: block;
+    font-family: 'Noto Serif TC';
     
 }
 *, *:before, *:after {
@@ -9,11 +10,13 @@ html{
 }
 body{
     margin: 0;
-    padding: 0px;
+    padding: 50px 0px 0 0;
     background-color: rgba(164, 240, 240, 0.527);
     width: 1000px;
     height: 100%;
     margin:0 auto ;
+    font-family: 'Noto Serif TC';
+    
     
 }
 

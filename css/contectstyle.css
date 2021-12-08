@@ -13,6 +13,7 @@ body{
     width: 1000px;
     height: 100%;
     margin:0 auto ;
+    font-family: 'Noto Serif TC';
     
 }
 .main_container{
@@ -21,7 +22,7 @@ padding: 20px;
 }
 .navitem{
     text-align: center;
-    font-size: 40px;
+    font-size: 30px;
     margin-bottom: 0;
     list-style-type: none;
 
@@ -38,7 +39,10 @@ hr{
     height: 3px;
     
  }
- 
+ .blank{
+    height: 200px;
+
+ }
 .personal_img{
     width: 200px;
     height: 200px;
@@ -50,6 +54,15 @@ hr{
     justify-content: space-around;
     
 
+}
+.my_info_container{
+    display: flex;
+    width: auto;
+    justify-content: center;
+}
+.my_info{
+    justify-content: center;
+    width: auto;
 }
 .intro_article{
     width: 400px;
