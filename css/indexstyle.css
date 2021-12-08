@@ -1,7 +1,5 @@
 html{
-    background-color: white;
     box-sizing: border-box;
-    display: block;
     font-family: 'Noto Serif TC';
     
 }
@@ -10,39 +8,17 @@ html{
 }
 body{
     margin: 0;
-    padding: 50px 0px 0 0;
+    padding: 56px;
     background-color: rgba(164, 240, 240, 0.527);
-    width: 1000px;
+    width: auto;
     height: 100%;
     margin:0 auto ;
-    font-family: 'Noto Serif TC';
-    
-    
+    font-family: 'Noto Serif TC';  
 }
 
-.navrow{
-    margin-bottom: 0;
-    padding: 0;
-}
-a{
-    text-decoration: none;
-}
-a:hover{
-    text-decoration: underline;
-    font-weight: bold;
-}
-.navitem{
-    text-align: center;
-    font-size: 30px;
-    margin-bottom: 0;
-    list-style-type: none;
-   
-    
-}
-.title{
-    text-align: center;
-    font-weight: bold;
-}
+
+
+
 hr{
     text-align: center;
     width: 90%;
@@ -51,10 +27,7 @@ hr{
     height: 3px;
     
  }
- .main{
-    padding: 0 50px;
-
- }
+ 
 
 .personal_img{
     width: 200px;
@@ -98,3 +71,11 @@ footer{
 
 
 }
+
+@media (min-width: 768px) {
+    /*nav選單*/
+        .navbar{
+        padding-left:50px!important;
+        padding-right:50px!important; 
+    }
+    }

@@ -6,25 +6,42 @@
     <link rel="stylesheet" href="./css/bootstrap.min.css">
     <link rel="stylesheet" href="./css/indexstyle.css">
     <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@200;300&display=swap" rel="stylesheet">
-    <script type="text/javascript" src="./js/jquary.js"></script>
-    <script type="text/javascript" src="./js/bootstrap.min.js"></script>
+   
     <title>110919002藍中崑首頁</title>
 </head>
 <body>
-    <header >
-        <div class="header">
-            <h1 class="title">110919002藍中崑的個人介紹首首頁</h1>
-
-        </div>      
-        <nav class="nav">
-        <div class="container "> 
-                <ul  class="row navrow">
-                    <li class="col-lg-4 navitem"><a href="./index.html">首頁</a></li>
-                    <li class="col-lg-4 navitem"><a href="./sport.html">運動</a></li>
-                    <li class="col-lg-4 navitem"><a href="./contect.html">聯絡資訊</a></li>
-                </ul>
-        </div>     
-        </nav>
+    <header>    
+            <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="#"><h1 class="logo_title">藍中崑的個人介紹</h1></a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav ms-auto">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="./index.html">首頁</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="./sport.html">運動</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="contect.html">聯絡資訊</a>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          其他連結
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                          <li><a class="dropdown-item" href="https://mcqueen7.github.io/HTML-Week1/" target="blank">純HTML練習</a></li>
+                          <li><a class="dropdown-item" href="https://mcqueen7.github.io/HTML_week5/" target="blank">指定FLEX排版練習</a></li>
+                          <li><a class="dropdown-item" href="https://mcqueen7.github.io/HTMLmidterm/index.html" target="blank">校園躲貓貓</a></li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </nav>
     </header>
     <div class="main">
         <hr> 
@@ -96,9 +113,9 @@
         <div class="cat_part"> 
             <h3>貓咪</h3>
             <p>flex排版練習</p>
-            <img src="./img/cat1.jfif" alt="cat1">
-            <img src="./img/cat2.jfif" alt="cat2">
-            <img src="./img/cat3.jfif" alt="cat3">
+            <img src="./img/cat1.jpg" alt="cat1">
+            <img src="./img/cat2.jpg" alt="cat2">
+            <img src="./img/cat3.jpg" alt="cat3">
         </div>
         <hr> 
         <div class="extra_part"> 
@@ -114,6 +131,8 @@
         
     </footer>
       
+    <script type="text/javascript" src="./js/jQuery.js"></script>
+    <script type="text/javascript" src="./js/bootstrap.min.js"></script>
 </body>
     
     
